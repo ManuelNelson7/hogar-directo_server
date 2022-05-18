@@ -4,8 +4,8 @@ export default {
     type: 'document',
     fields: [
       {
-        name: 'nombre',
-        title: 'Nombre',
+        name: 'name',
+        title: 'Name',
         type: 'string',
         description: 'Please use "Firstname Lastname" format',
       },
@@ -14,7 +14,7 @@ export default {
         title: 'Slug',
         type: 'slug',
         options: {
-          source: 'nombre',
+          source: 'name',
           maxLength: 100,
         },
       },
@@ -34,7 +34,7 @@ export default {
     ],
     preview: {
       select: {
-        title: 'nombre',
+        title: 'name',
         media: 'image',
       },
     },

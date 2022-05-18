@@ -97,8 +97,8 @@ export default {
             type: 'string',
         },
         {
-            name: 'dueno',
-            title: 'Dueno',
+            name: 'owner',
+            title: 'Owner',
             type: 'owner',
         },
     ],
