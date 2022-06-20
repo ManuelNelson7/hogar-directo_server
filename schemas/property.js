@@ -9,6 +9,11 @@ export default {
             type: 'string',
         },
         {
+            name: 'address',
+            title: 'Address',
+            type: 'string',
+        },
+        {
             name: 'location',
             title: 'Location',
             type: 'geopoint',
@@ -75,6 +80,21 @@ export default {
         {
             name: 'bathrooms',
             title: 'Bathrooms',
+            type: 'number',
+        },
+        {
+            name: 'bedrooms',
+            title: 'Bedrooms',
+            type: 'number',
+        },
+        {
+            name: 'superficie',
+            title: 'Superficie',
+            type: 'number',
+        },
+        {
+            name: 'totalSuperficie',
+            title: 'TotalSuperficie',
             type: 'number',
         },
         {
