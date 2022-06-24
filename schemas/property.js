@@ -68,6 +68,18 @@ export default {
             type: 'number',
         },
         {
+            name: 'currency',
+            title: 'Moneda',
+            type: 'string',
+            options: {
+                list: [
+                    { title: 'Pesos argentinos', value: 'ars' },
+                    { title: 'Dólares', value: 'usd' },
+                ],
+                layout: 'radio',
+            },
+        },
+        {
             name: 'expensas',
             title: 'Expensas',
             type: 'number',
@@ -120,6 +132,11 @@ export default {
             name: 'owner',
             title: 'Owner',
             type: 'owner',
+        },
+        {
+            name: 'status',
+            title: 'Estado de la publicación',
+            type: 'string',
         },
     ],
     preview: {
