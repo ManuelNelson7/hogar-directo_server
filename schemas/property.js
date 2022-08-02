@@ -112,16 +112,12 @@ export default {
         {
             name: 'slug',
             title: 'Slug',
-            type: 'slug',
-            options: {
-                source: 'title',
-                maxLength: 100,
-            },
+            type: 'string',
         },
         {
             name: 'id',
             title: 'ID',
-            type: 'number',
+            type: 'string',
         },
         {
             name: 'descripcion',
