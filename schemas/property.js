@@ -14,9 +14,14 @@ export default {
             type: 'string',
         },
         {
-            name: 'location',
-            title: 'Location',
-            type: 'geopoint',
+            name: 'latitud',
+            title: 'Latitud',
+            type: 'number',
+        },
+        {
+            name: 'longitud',
+            title: 'Longiud',
+            type: 'number',
         },
         {
             name: 'propertyType',
